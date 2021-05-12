@@ -20,6 +20,6 @@ node {
    }
    stage ('deploy'){
    echo 'deployment started'
-       bat '''copy C:\\Users\prajakta.v.kasab\.jenkins\\*.war C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps'''
+       bat '''copy C:\\Users\\prajakta.v.kasab\\.jenkins\\*.war C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\webapps'''
    }
 }
